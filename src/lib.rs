@@ -1,3 +1,5 @@
+#![no_std]
+
 //! This is a backport of the `SyncUnsafeCell` type from the standard library. The backport allows
 //! it to be used in older Rust versions, where it either does not exist yet or is not stable. Its
 //! minimum supported Rust version is 1.59, though
